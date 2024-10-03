@@ -1,4 +1,6 @@
 # 🚀 Novo Projetinho Concluído: Seal World - Explorando o Mundo das Focas 🌊 
+### [Acesse o site aqui!](https://raianecj.github.io/mundo-das-focas/)
+
 
 Estou muito feliz em compartilhar um novo projeto em que trabalhei recentemente como parte do Curso Fullstack JS da OneBitCode: Seal World. O site foi inspirado no projeto original sealabrate.tech, mas com algumas melhorias que implementei, como responsividade e suporte à reprodução de vídeo em dispositivos móveis, já que o site original não tinha essas funcionalidades otimizadas.
 
