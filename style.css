@@ -150,3 +150,100 @@ footer {
     padding: 2rem;
     text-align: center;
 }
+
+/* ---------- MEDIA QUERIES: Web Design Responsivo ---------- */
+@media (max-width: 1200px) {
+    .section {
+        padding: 0 4rem;
+    }
+
+    .section__title {
+        font-size: 2.5rem;
+    }
+
+    .section__img-inline,
+    .section__text-inline {
+        float: none;
+        margin: 0;
+        text-align: center;
+    }
+
+    .section__img-inline {
+        display: block;
+        margin: 2rem auto;
+        width: 80%;
+        height: auto;
+    }
+
+    .section__text-inline {
+        margin: 2rem auto;
+    }
+}
+
+/* Ajustes para telas menores que 768px */
+@media (max-width: 768px) {
+    .hero__title {
+        font-size: 3rem;
+    }
+
+    .hero__text {
+        letter-spacing: 0.2rem;
+    }
+
+    .section {
+        padding: 0 2rem;
+    }
+
+    .section__title {
+        font-size: 2rem;
+    }
+
+    .section__text {
+        font-size: 1rem;
+    }
+
+    .gallery__img-wrapper {
+        display: block;
+        margin: 2rem auto;
+    }
+
+    .gallery__img {
+        height: 12rem;
+        width: 12rem;
+    }
+}
+
+/* Ajustes para telas menores que 480px (celulares) */
+@media (max-width: 480px) {
+    .hero__foreground {
+        padding-top: 20vh;
+    }
+
+    .hero__title {
+        font-size: 2.5rem;
+    }
+
+    .hero__text {
+        font-size: 1rem;
+        margin: 1rem 0;
+        letter-spacing: 0.1rem;
+    }
+
+    .section__title {
+        font-size: 1.75rem;
+    }
+
+    .section__text {
+        font-size: 0.875rem;
+    }
+
+    .section__img,
+    .section__img-inline {
+        width: 100%;
+        height: auto;
+    }
+
+    .footer {
+        font-size: 0.875rem;
+    }
+}
