@@ -151,6 +151,26 @@ footer {
     text-align: center;
 }
 
+/* Personalizar a largura e cor da barra */
+::-webkit-scrollbar {
+    width: 10px; /* Diminui a largura */
+    height: 3px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: var(--color-background);; /* Cor do track */
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: var(--color-background);; /* Cor da thumb */
+    border-radius: 10px; /* Arredondar */
+    border: 2px solid var(--color-blue); /* Adicionar borda */
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: var(--color-blue); /* Cor ao passar o mouse */
+  }
+
 /* ---------- MEDIA QUERIES: Web Design Responsivo ---------- */
 @media (max-width: 1200px) {
     .section {
